@@ -1,86 +1,27 @@
-<h1 align="center">✨ Krishna — Builder. Debugger. Relentless Learner. ✨</h1>
+### Hey there! 👋
 
-<p align="center">
-Full-stack curious • Backend leaning • Always shipping  
-</p>
+I’m **Krishna**, a developer & builder from India.
 
----
+I don’t just learn tech — I use it to build things that exist only in my head first, and then in the real world.
 
-## 🧪 What I Do
+If an idea hits me, chances are I’ll turn it into a project.  
+Maybe I’ll break it 7 times along the way, but it ships eventually.
 
-I build things.  
-Sometimes they're polished.  
-Sometimes they're chaos with a console.log taped to the side.
+My current tech stack is **Python, JavaScript, Node.js, Express, MySQL, and DOM-based frontend**.  
+I also use **VS Code, Postman, and Git/GitHub** for most of my workflow.
 
-Either way — they ship.
+I’ve built multiple small and medium-sized projects, but the one I’m proud of right now is my **backend ecommerce setup with full database integration**.
 
----
+Public repos are growing. Private ideas are growing faster.
 
-## 🔧 My Current Stack
-
-- **Python**
-- **JavaScript** (Frontend + Backend)
-- **Node.js + Express**
-- **MySQL**
-- **HTML / CSS / JS**
-
-Learning & leveling up in:  
-🧩 DSA • Authentication • APIs • System Design
+If you want to see how I’m leveling up, well… just stick around.
 
 ---
 
-## 🚧 Projects I’ve Built
+#### Fun Facts:
 
-- ⏱ Timer  
-- 🧠 Quiz Game  
-- 🎯 Number Guessing  
-- 📝 To-Do App  
-- 🤖 Basic Chatbot  
-- 📓 Notes App (Save • Search • Display)  
-- 🛒 Ecommerce Backend (Routes + DB + Server connected)
+- I forget syntax but remember logic like it's encoded in my DNA  
+- I enjoy debugging more than sleeping (most days at least)  
+- DSA is currently my gym session  
+- **Hobbies:** coding, building random mini-projects, exploring tech  
 
-More coming. Always.
-
----
-
-## 📈 The Journey
-
-- 0 to Python  
-- Broke stuff  
-- Fixed stuff  
-- Built projects  
-- Started DSA  
-- Now unstoppable is a work-in-progress
-
----
-
-## 🎮 Fun Facts
-
-- My brain remembers logic but forgets syntax like a goldfish with RAM issues  
-- Debugging and victory dancing > sleeping  
-- The moment something works: ✨god mode✨  
-- The moment it breaks: `why()-is()-life()`
-
----
-
-## 🎯 Goals
-
-- Become truly dangerous with code  
-- Ace placements  
-- Build AI-powered projects  
-- Contribute, compete, and collaborate
-
----
-
-## 🧩 Personal Rule
-
-> **Build first. Learn by breaking. Ship without waiting for perfect.**
-
----
-
-<p align="center">
-If you're building, learning, shipping, or experimenting —  
-we're already on the same frequency.
-</p>
-
-<p align="center">🚀 Keep scrolling? Or start building?</p>
