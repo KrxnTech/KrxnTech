@@ -1,44 +1,86 @@
+<h1 align="center">✨ Krishna — Builder. Debugger. Relentless Learner. ✨</h1>
 
-* Full Stack Web Development  
-* Backend Engineering  
-* API Development  
-* UI/UX & Clean Interfaces  
-* Problem Solving & Hackathon Projects  
+<p align="center">
+Full-stack curious • Backend leaning • Always shipping  
+</p>
 
+---
 
-<img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/c-original.svg' width='30'/> &nbsp;&nbsp;
-<img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/python2.png' width='30'/> &nbsp;&nbsp;
-<img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/html.svg' width='30'/> &nbsp;&nbsp;
-<img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/css.svg' width='30'/> &nbsp;&nbsp;
-<img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/js.svg' width='30'/> &nbsp;&nbsp;
-<img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/sql.svg' width='30'/>
+## 🧪 What I Do
 
+I build things.  
+Sometimes they're polished.  
+Sometimes they're chaos with a console.log taped to the side.
 
+Either way — they ship.
 
+---
 
-<img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/nodejs.svg' width='33'/> &nbsp;&nbsp; 
-<img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/git.svg' width='33'/> &nbsp;&nbsp; 
-<img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/react.svg' width='33'/> &nbsp;&nbsp; 
-<img src='https://github.com/MarikIshtar007/MarikIshtar007/blob/master/images/bootstrap.svg' width='33'/>
- 
-* **React + Tailwind (Frontend)**
-* **Node + Express (Backend)**
-* **MySQL & SQL (Database)**
-* **Figma & Canva (Design Work)**
+## 🔧 My Current Stack
 
+- **Python**
+- **JavaScript** (Frontend + Backend)
+- **Node.js + Express**
+- **MySQL**
+- **HTML / CSS / JS**
 
-```python
-class WhoAmI:
-    user = "Krishna"
-    role = "Developer | Problem Solver"
-    current_work = "Building Full Stack Projects"
+Learning & leveling up in:  
+🧩 DSA • Authentication • APIs • System Design
 
-    hobbies = [
-        "Coding random ideas",
-        "Designing UI in Figma",
-        "Learning new tech",
-        "Participating in hackathons"
-    ]
+---
 
-    def goal():
-        return "Become a solid Full Stack Engineer"
+## 🚧 Projects I’ve Built
+
+- ⏱ Timer  
+- 🧠 Quiz Game  
+- 🎯 Number Guessing  
+- 📝 To-Do App  
+- 🤖 Basic Chatbot  
+- 📓 Notes App (Save • Search • Display)  
+- 🛒 Ecommerce Backend (Routes + DB + Server connected)
+
+More coming. Always.
+
+---
+
+## 📈 The Journey
+
+- 0 to Python  
+- Broke stuff  
+- Fixed stuff  
+- Built projects  
+- Started DSA  
+- Now unstoppable is a work-in-progress
+
+---
+
+## 🎮 Fun Facts
+
+- My brain remembers logic but forgets syntax like a goldfish with RAM issues  
+- Debugging and victory dancing > sleeping  
+- The moment something works: ✨god mode✨  
+- The moment it breaks: `why()-is()-life()`
+
+---
+
+## 🎯 Goals
+
+- Become truly dangerous with code  
+- Ace placements  
+- Build AI-powered projects  
+- Contribute, compete, and collaborate
+
+---
+
+## 🧩 Personal Rule
+
+> **Build first. Learn by breaking. Ship without waiting for perfect.**
+
+---
+
+<p align="center">
+If you're building, learning, shipping, or experimenting —  
+we're already on the same frequency.
+</p>
+
+<p align="center">🚀 Keep scrolling? Or start building?</p>
