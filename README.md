@@ -1,4 +1,4 @@
-### Hey there! 👋
+### Hey there 👋
 
 I m **Krishna** a developer & builder from India.
 
