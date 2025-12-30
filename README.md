@@ -18,6 +18,8 @@ If you want to see how Im leveling up well… just stick around.
 
 ---
 
+C CSS3 Java HTML5 Python JavaScript Netlify Vercel Render EJS Express.js NodeJS React TailwindCSS Vite MongoDB MySQL Canva Git
+
 #### Fun Facts:
 
 - I forget syntax but remember logic like its encoded in my DNA  
