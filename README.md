@@ -1,5 +1,3 @@
-### Hey there 👋
-
 I m **Krishna** a developer & builder from India.
 
 I don’t just learn tech — I use it to build things that exist only in my head first and then in the real world.
