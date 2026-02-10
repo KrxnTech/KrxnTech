@@ -1,26 +1,62 @@
-I m **Krishna** a developer & builder from India.
+# Hi there, I'm KrxnTech 👋
 
-I don’t just learn tech — I use it to build things that exist only in my head first and then in the real world.
+Welcome to my GitHub profile! I'm passionate about building innovative solutions and contributing to the open-source community.
 
-If an idea hits me chances are I will turn it into a project.  
-Maybe I will break it 7 times along the way but it ships eventually.
+## 🚀 About Me
 
-My current tech stack is **Python JavaScript Node.JS Express.JS MySQL and DOM-based frontend**.  
-I also use **VS Code Postman and Git/GitHub** for most of my workflow.
+I'm a developer with a passion for clean code, creative problem-solving, and continuous learning. I love collaborating with others and turning ideas into reality through technology.
 
-I have built multiple small and medium-sized projects but the one I m proud of right now is my **backend ecommerce setup with full database integration**.
+## 💻 Skills & Technologies
 
-Public repos are growing. Private ideas are growing faster.
+- **Languages**: JavaScript, Python, Java, etc.
+- **Frontend**: React, Vue, HTML/CSS
+- **Backend**: Node.js, Django, Spring Boot
+- **Tools & Platforms**: Git, Docker, CI/CD, AWS
+- **Other**: RESTful APIs, Databases, Agile Development
 
-If you want to see how Im leveling up well… just stick around.
+## 🎯 What I'm Working On
 
+Currently exploring new technologies and working on projects that make a real impact. Always open to interesting collaborations and learning opportunities!
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" /> <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /> <img src="https://img.shields.io/badge/Excalidraw-6965DB?style=for-the-badge&logo=excalidraw&logoColor=white" /> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" /> <img src="https://img.shields.io/badge/EJS-90A93A?style=for-the-badge&logo=ejs&logoColor=white" /> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" /> <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=database&logoColor=white" /> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+## 📌 Featured Projects
 
-#### Fun Facts:
+### Project One
+Brief description of your most impressive project and what makes it special.
 
-- I forget syntax but remember logic like its encoded in my DNA  
-- I enjoy debugging more than sleeping (most days at least)  
-- DSA is currently my gym session  
-- **Hobbies:** coding building random mini-projects exploring tech  
+### Project Two
+Description of another key project you're proud of.
 
+### Project Three
+One more project highlight that showcases your skills.
+
+## 📈 GitHub Stats
+
+![KrxnTech's GitHub stats](https://github-readme-stats.vercel.app/api?username=KrxnTech&show_icons=true&theme=radical)
+
+## 🌱 Currently Learning
+
+- Advanced system design patterns
+- New frameworks and technologies
+- Best practices in software architecture
+
+## 💡 Interests
+
+- Open source development
+- Web development
+- Cloud computing
+- Innovation and emerging tech
+
+## 📞 Let's Connect
+
+- 💼 [LinkedIn](https://linkedin.com)
+- 🐦 [Twitter](https://twitter.com)
+- 📧 Email: your.email@example.com
+- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
+
+## ⭐ Fun Fact
+
+Add something interesting about yourself here!
+
+---
+
+*Last updated: February 2026 | Always open to exciting opportunities and collaborations!*
