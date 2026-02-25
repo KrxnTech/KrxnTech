@@ -2,11 +2,11 @@
 
 ## 𝒜𝒷𝑜𝓊𝓉 𝑀𝑒
 
-- 💻 Passionate about Coding & Problem Solving  
-- 🚀 MERN Stack Developer  
-- 🧠 Strong interest in Backend Development  
-- 🎓 Computer Science Student  
-- 📧 krishnasharma16.com@gmail.com  
+- About me : Passionate about Coding & Problem Solving  
+- What I am : MERN Stack Developer  
+- Learning Right Now : Strong interest in Backend Development  
+- MaJor : Computer Science Student  
+- Want to Connect : krishnasharma16.com@gmail.com  
 
 ## 𝓓𝓮𝓿 𝓢𝓽𝓪𝓬𝓴
 
