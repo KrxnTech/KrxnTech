@@ -1,14 +1,14 @@
-<h1 align="center">👋 Hi, I'm Krishna Sharma</h1>
+<h1 align="center">👋 Hi Im Krishna Sharma</h1>
 
 ---
 
-## 🌱 Wanna Know Me? Let's just say ...
+## 🌱 Wanna Know Me? Lets just say ...
 
-- 💻 A hardworking dev, live, breathe & love Coding & Programming!
-- 🚀 Full Stack Developer, but I enjoy Backend more (Frontend too, no drama)
+- 💻 A hardworking dev live breathe & love Coding & Programming !
+- 🚀 Full Stack Developer but I enjoy Backend more (Frontend too no drama)
 - 📧 How to reach me: krishnasharma16.com@gmail.com
 - 🎓 Computer Science Student
-- 🔥 Fun fact: I build things instead of just watching tutorials
+- 🔥 Fun fact : I build things instead of just watching tutorials
 
 ---
 
@@ -35,40 +35,4 @@
 
 </p>
 
----
 
-## 📊 GitHub Stats
-
-<p align="center">
-  
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight" />
-
-</p>
-
----
-
-## 🧠 Currently Learning
-
-- 🔥 Data Structures & Algorithms  
-- 🚀 System Design Basics  
-- 🤖 AI / ML Fundamentals  
-
----
-
-## 🏆 Goals
-
-- 💼 Crack a good tech placement  
-- 📦 Build production-level full stack apps  
-- 🧠 Master Backend Architecture  
-
----
-
-## ⚡ Quote I Follow
-
-> “Build. Break. Fix. Repeat.”
-
----
