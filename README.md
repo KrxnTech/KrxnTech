@@ -1,6 +1,6 @@
-<h1 align="center">👋 Hi, I'm Krishna Sharma</h1>
+<h1 align="center">👋 Hello This is Krishna Sharma</h1>
 
-About Me
+## 𝒜𝒷𝑜𝓊𝓉 𝑀𝑒
 
 - 💻 Passionate about Coding & Problem Solving  
 - 🚀 MERN Stack Developer  
@@ -8,13 +8,13 @@ About Me
 - 🎓 Computer Science Student  
 - 📧 krishnasharma16.com@gmail.com  
 
-Tech Stack
+## 𝓓𝓮𝓿 𝓢𝓽𝓪𝓬𝓴
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,mysql,javascript,git,github" />
 </p>
 
-GitHub Stats
+## 𝓖𝓲𝓽𝓗𝓾𝓫 𝓢𝓽𝓪𝓽𝓼
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" />
