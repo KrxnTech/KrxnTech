@@ -6,7 +6,6 @@
 - What I am : MERN Stack Developer  
 - Learning Right Now : Strong interest in Backend Development  
 - MaJor : Computer Science Student  
-- Want to Connect : krishnasharma16.com@gmail.com  
 
 ## 𝓓𝓮𝓿 𝓢𝓽𝓪𝓬𝓴
 
