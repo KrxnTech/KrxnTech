@@ -10,10 +10,10 @@ I’m [**Krxna**](https://mirayatech.notion.site/Miraya-Tech-2fa175720a2080879d2
 ---
 
 **Some stuff I built:**
-- [Expenses Tracker](https://github.com/mirayatech/image-card-stack) -  A draggable card stack component with smooth animations and TypeScript generics.
-- [Dhooon](https://github.com/mirayatech/Anime-Scene-Gallery) - An interactive anime scene gallery with hover animations and dynamic transitions.
-- [React Website](https://github.com/mirayatech/NinjaSketch) - Excalidraw clone built with React and TypeScript
-- [Weather Application](https://github.com/mirayatech/halloween-cat-ghost) - An animated Halloween scene featuring a cat watching a playful ghost through a window
+- [Expenses Tracker](https://merry-blini-c12d3e.netlify.app/) - An Expense Tracker web app built with HTML, CSS, and JavaScript for managing income and expenses
+- [Dhooon](https://dhoooon-4rme.vercel.app/) - A modern Web Music Application built with React featuring music playback and playlist management
+- [React Website](https://gulkaspharma.vercel.app/) - A Modern React based website for my client ( Medical ) 
+- [Weather Application](https://real-time-weather-web-application.vercel.app/) - A React Weather Application that fetches real-time weather data using a Weather API and displays it in a clean interactive UI
 
 ---
 
