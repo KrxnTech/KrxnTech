@@ -28,3 +28,5 @@ I’m [**Krxna**](https://mirayatech.notion.site/Miraya-Tech-2fa175720a2080879d2
 **Contribution**
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=KrxnTech&theme=react-dark)
+
+- I occasionally go into **coding beast mode** dump a lot of commits then disappear like a mysterious hacker in a movie 😅
