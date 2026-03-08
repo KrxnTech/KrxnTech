@@ -22,3 +22,9 @@ I’m [**Krxna**](https://mirayatech.notion.site/Miraya-Tech-2fa175720a2080879d2
 * I like tea
 * **When Life gives you Tangerines** is my fav K-Drama
 * **Hobbies:** Coding, gym & Music
+
+---
+
+**Contribution**
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=KrxnTech&theme=react-dark)
