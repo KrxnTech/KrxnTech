@@ -1,6 +1,6 @@
 ### Hi there! <img src="https://emojis.slackmojis.com/emojis/images/1536351075/4594/blob-wave.gif" width="25"/> 
 
-I’m [**Krxna**](https://mirayatech.notion.site/Miraya-Tech-2fa175720a2080879d27c23207346acb), a Backend engineer based in India. I like building clean Project keeping things simple.
+I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based in India. I like building clean Project keeping things simple.
 
 **These days I’m focused on:**
 - React, Express JS, Tailwind, JavaScript, MongoDB
