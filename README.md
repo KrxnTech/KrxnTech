@@ -30,7 +30,7 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=KrxnTech&theme=react-dark)
 
 - I occasionally go into **coding beast mode** dump a lot of commits then disappear like a mysterious hacker in a movie 😅
-
+- 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KrxnTech&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KrxnTech&theme=tokyonight" />
 </p>
