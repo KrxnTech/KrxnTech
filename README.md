@@ -34,3 +34,6 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KrxnTech&theme=tokyonight" />
 </p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrxnTech&layout=compact&theme=tokyonight" />
+</p>
