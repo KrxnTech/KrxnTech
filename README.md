@@ -22,9 +22,6 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 * I like tea
 * **When Life gives you Tangerines** is my fav K-Drama
 * **Hobbies:** Coding, gym & Music
-* <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=KrxnTech&label=Profile+Views&color=0e75b6&style=flat" />
-</p>
 
 ---
 
