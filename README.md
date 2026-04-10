@@ -14,6 +14,7 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 - [Dhooon](https://dhoooon-4rme.vercel.app/) - A modern Web Music Application built with React featuring music playback and playlist management
 - [React Website](https://gulkaspharma.vercel.app/) - A Modern React based website for my client ( Medical ) 
 - [Weather Application](https://real-time-weather-web-application.vercel.app/) - A React Weather Application that fetches real-time weather data using a Weather API and displays it in a clean interactive UI
+- [Content-Hub] - An AI-powered web platform that converts long-form videos (4–5 minutes) into multiple engaging short clips automatically
 
 ---
 
