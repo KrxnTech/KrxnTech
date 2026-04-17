@@ -15,6 +15,7 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 - [React Website](https://gulkaspharma.vercel.app/) - A Modern React based website for my client ( Medical ) 
 - [Weather Application](https://real-time-weather-web-application.vercel.app/) - A React Weather Application that fetches real-time weather data using a Weather API and displays it in a clean interactive UI
 - [Content-Hub](https://github.com/KrxnTech/ContentHub) - An AI-powered web platform that converts long-form videos (4–5 minutes) into multiple engaging short clips automatically
+- [StarbucksFrontend](https://glistening-strudel-16ed4c.netlify.app/) - Starbucks frontend ui using Html and CSS
 
 ---
 
