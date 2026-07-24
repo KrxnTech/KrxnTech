@@ -28,7 +28,3 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 ---
 
 - I occasionally go into **coding beast mode** dump a lot of commits then disappear like a mysterious hacker in a movie 😅
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrxnTech&layout=compact&theme=tokyonight" width="49%" height="165px" />
-</p>
