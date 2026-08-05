@@ -9,6 +9,74 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 
 ---
 
+## 💼 Professional Work
+
+### 🎬 ContentHub — AI Video Clipping Platform · Creator & Developer
+
+An automated video processing platform that uses Artificial Intelligence to identify, transcribe, and extract viral short-form clips from full-length videos. By leveraging modern LLMs and Speech-to-Text models, it automates manual video editing to help content creators repurpose media efficiently.
+
+#### What I've built & shipped:
+* 🎙️ **Automated Speech-to-Text Pipeline** — End-to-end audio extraction and transcription using OpenAI Whisper.
+* 🧠 **LLM Viral Moment Detection** — AI content analysis powered by Groq (Llama 3) to identify engaging segments.
+* ✂️ **Programmatic Video Clipping** — FFmpeg & MoviePy integration for automated frame-accurate video slicing.
+* ☁️ **Media Cloud Synchronization** — Scalable storage orchestration with Cloudinary and Node.js.
+* ⚡ **Microservices Architecture** — High-performance Python/FastAPI service isolated from standard Web API logic.
+* 🛠️ **Environment Engineering** — Custom setup resolving Python 3.13 build conflicts and HTTP client SDK compatibility.
+
+`React.js` · `Vite` · `Tailwind CSS` · `Node.js` · `Express` · `MongoDB` · `FastAPI` · `Python 3.13` · `Whisper AI` · `Groq (Llama 3)` · `FFmpeg` · `Cloudinary`
+
+---
+
+<details>
+<summary><b>⚙️ Architecture & Tech Stack Details</b></summary>
+
+<br />
+
+### Tech Stack Breakdown
+
+* **Frontend**: React.js, Vite, Tailwind CSS
+* **Backend**: Node.js, Express.js, Mongoose
+* **Database**: MongoDB (Local / Atlas)
+* **Storage**: Cloudinary (Video & Image Orchestration)
+* **AI Service**: Python 3.13, FastAPI, OpenAI Whisper, Groq SDK
+* **Media Processing**: FFmpeg, MoviePy
+
+### System Architecture Breakdown
+
+1. **Frontend (React/Vite)**: Responsive interface for video ingestion, library management, and previewing clips.
+2. **Backend (Node/Express)**: Core API layer handling authentication, database management (MongoDB), and Cloudinary orchestration.
+3. **AI Engine (Python/FastAPI)**: Isolated processing engine handling media extraction, AI transcription, prompt analysis, and rendering.
+
+</details>
+
+<details>
+<summary><b>🔄 How a video processing pipeline flows through the system</b></summary>
+
+<br />
+
+```text
+[User Upload] ──> (React Frontend) ──> [Cloudinary Storage]
+                                              │
+                                        (Node Backend)
+                                              │
+                                     (Python AI Service)
+                                              │
+               ┌──────────────────────────────┼──────────────────────────────┐
+               ▼                              ▼                              ▼
+      [Audio Extraction]            [Whisper Transcription]         [Groq Llama 3 Analysis]
+        (FFmpeg Engine)                 (Speech-to-Text)              (Viral Cut Detection)
+               │                              │                              │
+               └──────────────────────────────┼──────────────────────────────┘
+                                              │
+                                              ▼
+                                   [MoviePy Video Slicing]
+                                              │
+                                              ▼
+                                 [Cloudinary Sync & MongoDB]
+```
+
+---
+
 **Some stuff I built:**
 - [Dhooon](https://dhoooon-4rme.vercel.app/) - A modern Web Music Application built with React featuring music playback and playlist management
 - [Content-Hub](https://github.com/KrxnTech/ContentHub) - An AI-powered web platform that converts long-form videos (4–5 minutes) into multiple engaging short clips        automatically
