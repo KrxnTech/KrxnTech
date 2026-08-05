@@ -12,8 +12,12 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 **Some stuff I built:**
 - [Dhooon](https://dhoooon-4rme.vercel.app/) - A modern Web Music Application built with React featuring music playback and playlist management
 - [Content-Hub](https://github.com/KrxnTech/ContentHub) - An AI-powered web platform that converts long-form videos (4–5 minutes) into multiple engaging short clips        automatically
-- [Resume-Buddy](https://github.com/KrxnTech/Resume-Buddy) - AI-powered MERN web application that analyzes resumes against job descriptions, extracts insights,             identifies skill gaps, and generates AI-driven improvement suggestions. 
+- [Resume-Buddy](https://github.com/KrxnTech/Resume-Buddy) - AI-powered MERN web application that analyzes resumes against job descriptions, extracts insights,             identifies skill gaps, and generates AI-driven improvement suggestions.
 ---
+
+**Client Works**  
+- [Pharmaceutical Website - Gulkas Pharma] (https://github.com/KrxnTech/PharmaWebsite) : Client Pharmaceutical Website
+- [Easy Label Sticker's Generator - Gulkas Pharma] (https://label-qr-generator.vercel.app/) : MERN Based Label Sticker Gen Web Application ( Automation )  
 
 
 **Tech Stack:**  
