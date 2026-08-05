@@ -73,8 +73,9 @@ An automated video processing platform that uses Artificial Intelligence to iden
                                               │
                                               ▼
                                  [Cloudinary Sync & MongoDB]
-```
 
+```
+</details>
 ---
 
 **Some stuff I built:**
