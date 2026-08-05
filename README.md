@@ -16,8 +16,8 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 ---
 
 **Client Works**  
-- [Pharmaceutical Website - Gulkas Pharma] (https://github.com/KrxnTech/PharmaWebsite) : Client Pharmaceutical Website
-- [Easy Label Sticker's Generator - Gulkas Pharma] (https://label-qr-generator.vercel.app/) : MERN Based Label Sticker Gen Web Application ( Automation )  
+- [Pharmaceutical Website - Gulkas Pharma](https://github.com/KrxnTech/PharmaWebsite) : Client Pharmaceutical Website
+- [Easy Label Sticker's Generator - Gulkas Pharma](https://label-qr-generator.vercel.app/) : MERN Based Label Sticker Gen Web Application ( Automation )  
 
 
 **Tech Stack:**  
