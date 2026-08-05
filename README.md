@@ -9,7 +9,7 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 
 ---
 
-## 💼 Professional Work
+## Professional and Dedicated Working's
 
 ### 🎬 ContentHub — AI Video Clipping Platform · Creator & Developer
 
