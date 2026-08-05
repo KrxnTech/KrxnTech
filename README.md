@@ -10,13 +10,9 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 ---
 
 **Some stuff I built:**
-- [Expenses Tracker](https://merry-blini-c12d3e.netlify.app/) - An Expense Tracker web app built with HTML, CSS, and JavaScript for managing income and expenses
 - [Dhooon](https://dhoooon-4rme.vercel.app/) - A modern Web Music Application built with React featuring music playback and playlist management
-- [React Website](https://gulkaspharma.vercel.app/) - A Modern React based website for my client ( Medical ) 
-- [Weather Application](https://real-time-weather-web-application.vercel.app/) - A React Weather Application that fetches real-time weather data using a Weather API and displays it in a clean interactive UI
-- [Content-Hub](https://github.com/KrxnTech/ContentHub) - An AI-powered web platform that converts long-form videos (4–5 minutes) into multiple engaging short clips automatically
-- [StarbucksFrontend](https://glistening-strudel-16ed4c.netlify.app/) - Starbucks frontend ui using Html and CSS
-
+- [Content-Hub](https://github.com/KrxnTech/ContentHub) - An AI-powered web platform that converts long-form videos (4–5 minutes) into multiple engaging short clips        automatically
+- [Resume-Buddy](https://github.com/KrxnTech/Resume-Buddy) - AI-powered MERN web application that analyzes resumes against job descriptions, extracts insights,             identifies skill gaps, and generates AI-driven improvement suggestions. 
 ---
 
 **Fun Facts:**
