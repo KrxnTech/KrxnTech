@@ -85,7 +85,7 @@ An automated video processing platform that uses Artificial Intelligence to iden
 ---
 
 **Client Works**  
-- [Pharmaceutical Website - Gulkas Pharma](https://github.com/KrxnTech/PharmaWebsite) : Client Pharmaceutical Website
+- [Pharmaceutical Website - Gulkas Pharma](https://gulkaspharma.vercel.app/) : Client Pharmaceutical Website
 - [Easy Label Sticker's Generator - Gulkas Pharma](https://label-qr-generator.vercel.app/) : MERN Based Label Sticker Gen Web Application ( Automation )  
 
 
