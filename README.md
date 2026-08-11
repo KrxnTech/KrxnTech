@@ -120,4 +120,4 @@ An automated video processing platform that uses Artificial Intelligence to iden
 
 ---
 
-- I occasionally go into **coding beast mode** dump a lot of commits then disappear like a mysterious hacker in a movie 😅
+- I occasionally go into **coding beast mode** dump a lot of commits then disappear like a mysterious hacker in a movie 😅 
