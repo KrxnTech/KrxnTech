@@ -17,7 +17,6 @@ An automated video processing platform that uses Artificial Intelligence to iden
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d3b7e03c-26b9-4513-8b73-4cdf14bcd2b3" />  
 
-
 #### What I've built & shipped:
 * 🎙️ **Automated Speech-to-Text Pipeline** — End-to-end audio extraction and transcription using OpenAI Whisper.
 * 🧠 **LLM Viral Moment Detection** — AI content analysis powered by Groq (Llama 3) to identify engaging segments.
