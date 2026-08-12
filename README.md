@@ -1,8 +1,3 @@
-Here is your updated GitHub Profile README! I structured **Resume Buddy** directly into your **"Professional and Dedicated Working's"** section right below ContentHub, maintaining the exact layout, tone, badge style, details, and workflow diagrams you used for ContentHub.
-
----
-
-```markdown
 ### Hi there! <img src="https://emojis.slackmojis.com/emojis/images/1536351075/4594/blob-wave.gif" width="25"/> 
 
 I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based in India. I like building clean Project keeping things simple.
@@ -78,8 +73,9 @@ An automated video processing platform that uses Artificial Intelligence to iden
                                               │
                                               ▼
                                  [Cloudinary Sync & MongoDB]
-
 ```
+
+</details>
 
 ---
 
@@ -133,7 +129,6 @@ An AI-driven SaaS platform that performs contextual resume evaluations against j
                                                          │
                                                          ▼
                                             [Interactive SaaS Dashboard]
-
 ```
 
 ---
@@ -161,7 +156,3 @@ An AI-driven SaaS platform that performs contextual resume evaluations against j
 ---
 
 * I occasionally go into **coding beast mode** dump a lot of commits then disappear like a mysterious hacker in a movie 😅
-
-```
-
-```
