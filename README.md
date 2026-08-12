@@ -1,3 +1,8 @@
+Here is your updated GitHub Profile README! I structured **Resume Buddy** directly into your **"Professional and Dedicated Working's"** section right below ContentHub, maintaining the exact layout, tone, badge style, details, and workflow diagrams you used for ContentHub.
+
+---
+
+```markdown
 ### Hi there! <img src="https://emojis.slackmojis.com/emojis/images/1536351075/4594/blob-wave.gif" width="25"/> 
 
 I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based in India. I like building clean Project keeping things simple.
@@ -57,9 +62,9 @@ An automated video processing platform that uses Artificial Intelligence to iden
 ```text
 [User Upload] ──> (React Frontend) ──> [Cloudinary Storage]
                                               │
-                                        (Node Backend)
+                                       (Node Backend)
                                               │
-                                     (Python AI Service)
+                                    (Python AI Service)
                                               │
                ┌──────────────────────────────┼──────────────────────────────┐
                ▼                              ▼                              ▼
@@ -75,43 +80,78 @@ An automated video processing platform that uses Artificial Intelligence to iden
                                  [Cloudinary Sync & MongoDB]
 
 ```
-</details>
+
+---
+
+### 😺 Resume Buddy — AI-Powered Career Intelligence Platform · Creator & Developer
+
+An AI-driven SaaS platform that performs contextual resume evaluations against job descriptions, helping candidates understand how their resumes are scored by ATS filters and recruiters before applying. It generates actionable match scores, identifies missing skills, and provides real-time AI rewrites.
+
+#### What I've built & shipped:
+
+* 📄 **PDF Extraction Pipeline** — Multi-stage document ingestion handling PDF uploads via Multer and text parsing via `pdf-parse`.
+* 🤖 **Contextual LLM Analysis** — Custom prompt engineering using Groq (Llama models) to evaluate resumes beyond simple keyword matching.
+* 📋 **Structured JSON Contracts** — Strict AI-to-backend schema responses guaranteeing reliable rendering for ATS scores, recruiter verdicts, and section feedback.
+* ✍️ **AI Rewrite Studio** — Real-time enhancement studio offering before-and-after comparisons, impact scores, and actionable verb suggestions.
+* 📊 **Dual-Lens Recruiter Engine** — Multi-metric scoring system calculating hiring probabilities, ATS compatibility rings, and technical round chances.
+* ⚡ **Service-Oriented Architecture** — Clean Express backend API structure with centralized error handling and modular controllers.
+
+`React.js` · `Vite` · `Node.js` · `Express.js` · `Groq API` · `Llama Models` · `Multer` · `pdf-parse` · `Framer Motion`
+
+---
+
+### Tech Stack Breakdown
+
+* **Frontend**: React.js, Vite, JavaScript, React Router, Framer Motion
+* **Backend**: Node.js, Express.js, Multer, pdf-parse
+* **AI Service**: Groq API, Llama Models (Prompt Engineering & Structured JSON Contracts)
+* **Database**: MongoDB *(planned integration)*
+
+### System Architecture Breakdown
+
+1. **Frontend (React/Vite)**: Multi-page SaaS dashboard for PDF ingestion, interactive ATS rings, recruiter metrics, and AI rewrite workflows.
+2. **Backend (Express REST API)**: Service-oriented middleware handling file validation, text parsing, error handling, and LLM communication.
+3. **AI Core (Groq/Llama)**: Structured processing layer converting candidate data and job descriptions into actionable JSON metrics.
+
+```text
+[PDF & Job Description] ──> (React Frontend) ──> [Express REST API]
+                                                         │
+                                                  (Multer File Upload)
+                                                         │
+                                                (PDF Text Extractor)
+                                                         │
+                                               (Groq LLM Engine / Llama)
+                                                         │
+                                                [Structured JSON Response]
+                                                         │
+                ┌────────────────────────────────────────┼────────────────────────────────────────┐
+                ▼                                        ▼                                        ▼
+      [ATS Analysis Engine]                     [Recruiter Dashboard]                    [AI Rewrite Studio]
+  (Compatibility Ring & Scores)            (Verdict, Interview & Offer Odds)         (Before/After & Keyword Fixes)
+                │                                        │                                        │
+                └────────────────────────────────────────┼────────────────────────────────────────┘
+                                                         │
+                                                         ▼
+                                            [Interactive SaaS Dashboard]
+
+```
+
 ---
 
 **Some stuff I built:**
-- [Dhooon](https://dhoooon-4rme.vercel.app/) - A modern Web Music Application built with React featuring music playback and playlist management
-- [Content-Hub](https://github.com/KrxnTech/ContentHub) - An AI-powered web platform that converts long-form videos (4–5 minutes) into multiple engaging short clips        automatically
-- [Resume-Buddy](https://github.com/KrxnTech/Resume-Buddy) - AI-powered MERN web application that analyzes resumes against job descriptions, extracts insights,             identifies skill gaps, and generates AI-driven improvement suggestions.
+
+* [Dhooon](https://dhoooon-4rme.vercel.app/) - A modern Web Music Application built with React featuring music playback and playlist management
+* [Content-Hub](https://github.com/KrxnTech/ContentHub) - An AI-powered web platform that converts long-form videos (4–5 minutes) into multiple engaging short clips automatically
+* [Resume-Buddy](https://github.com/KrxnTech/AI-Resume-Portfolio-Analyzer) - AI-powered MERN web application that analyzes resumes against job descriptions, extracts insights, identifies skill gaps, and generates AI-driven improvement suggestions.
+
 ---
 
-**Client Works**  
-- [Pharmaceutical Website - Gulkas Pharma](https://gulkaspharma.vercel.app/) : Client Pharmaceutical Website
-- [Easy Label Sticker's Generator - Gulkas Pharma](https://label-qr-generator.vercel.app/) : MERN Based Label Sticker Gen Web Application ( Automation )  
+**Client Works**
 
+* [Pharmaceutical Website - Gulkas Pharma](https://gulkaspharma.vercel.app/) : Client Pharmaceutical Website
+* [Easy Label Sticker's Generator - Gulkas Pharma](https://label-qr-generator.vercel.app/) : MERN Based Label Sticker Gen Web Application ( Automation )
 
-**Tech Stack:**  
-  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
-  ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-  ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=61DAFB)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-  ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-  ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-  ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-  ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-  ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-  ![ChatGPT](https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white)
-  ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-8957E5?style=for-the-badge&logo=githubcopilot&logoColor=white)
-  ![Claude AI](https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=claude&logoColor=white)
-  ![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+**Tech Stack:**
 
 **Fun Facts:**
 
@@ -120,4 +160,8 @@ An automated video processing platform that uses Artificial Intelligence to iden
 
 ---
 
-- I occasionally go into **coding beast mode** dump a lot of commits then disappear like a mysterious hacker in a movie 😅 
+* I occasionally go into **coding beast mode** dump a lot of commits then disappear like a mysterious hacker in a movie 😅
+
+```
+
+```
