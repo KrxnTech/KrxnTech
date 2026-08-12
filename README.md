@@ -15,7 +15,7 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 
 An automated video processing platform that uses Artificial Intelligence to identify, transcribe, and extract viral short-form clips from full-length videos. By leveraging modern LLMs and Speech-to-Text models, it automates manual video editing to help content creators repurpose media efficiently.
 
-<img width="1645" height="816" alt="Screenshot 2026-08-12 114726" src="https://github.com/user-attachments/assets/85c6ad2a-c219-4abf-8730-bca00675fee7" />
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/51b29e90-3c38-4867-8857-28189f30b287" />  
 
 #### What I've built & shipped:
 * 🎙️ **Automated Speech-to-Text Pipeline** — End-to-end audio extraction and transcription using OpenAI Whisper.
