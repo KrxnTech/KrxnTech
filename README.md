@@ -83,6 +83,8 @@ An automated video processing platform that uses Artificial Intelligence to iden
 
 An AI-driven SaaS platform that performs contextual resume evaluations against job descriptions, helping candidates understand how their resumes are scored by ATS filters and recruiters before applying. It generates actionable match scores, identifies missing skills, and provides real-time AI rewrites.
 
+<img width="1587" height="716" alt="image" src="https://github.com/user-attachments/assets/b53c4948-2682-4304-9f1a-59aba0fdcd4b" />  
+
 #### What I've built & shipped:
 
 * 📄 **PDF Extraction Pipeline** — Multi-stage document ingestion handling PDF uploads via Multer and text parsing via `pdf-parse`.
