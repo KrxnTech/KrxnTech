@@ -6,7 +6,7 @@ I’m [**Krxna**](https://websiiiite-x1rw.vercel.app/), a Backend engineer based
 - React, Express JS, Tailwind, JavaScript, MongoDB
 - Working on Backend Development + API's 
 - Small, thoughtful projects with polish
-
+ 
 ---
 
 ## Professional and Dedicated Working's
