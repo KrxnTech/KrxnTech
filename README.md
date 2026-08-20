@@ -161,3 +161,5 @@ An AI-driven SaaS platform that performs contextual resume evaluations against j
 ---
 
 * I occasionally go into **coding beast mode** dump a lot of commits then disappear like a mysterious hacker in a movie 😅
+
+<img src="https://raw.githubusercontent.com/KrxnTech/KrxnTech/output/snake.svg" />
