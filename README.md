@@ -3,9 +3,9 @@
 I’m [**Check Out My Portfolio 🔥 ➦ Backend-Dev KrxnTech**](https://krxna-tech.vercel.app/), a Backend engineer based in India. I like building clean Project keeping things simple.
 
 **These days I’m focused on:**
-- React, Express JS, Tailwind, JavaScript, MongoDB
-- Working on Backend Development + API's 
-- Small, thoughtful projects with polish
+- Database Optimization , Indexing and Query Performance , Transaction and Data Consistency , Redis & Caching , Background Jobs , Message Queues , Rate Liming , Docker & Containerization , CI/CD Pipelines 
+- System Design , Distribution Systems , Auth System 
+- Claude Coding , Vibe Coding , Backend Centric , Frontend Dev , React , Type-Script , Node.Js and Express.Js , MongoDB ( Database Only ) 
  
 ---
 
