@@ -10,6 +10,7 @@
 
 <!-- Add Instagram / YouTube / Topmate links here once you have them. -->
 
+<!--
 ### Projects
 
 | Project | What it does | Link |
@@ -17,3 +18,4 @@
 | _Coming soon_ | Add your first project description here. | [Repo](https://github.com/KrxnTech) |
 | _Coming soon_ | Add your second project description here. | [Repo](https://github.com/KrxnTech) |
 | _Coming soon_ | Add your third project description here. | [Repo](https://github.com/KrxnTech) |
+-->
