@@ -285,8 +285,9 @@ def b64img(path):
     with open(path, "rb") as f: return f"data:image/{mime};base64," + base64.b64encode(f.read()).decode()
 
 def embed(path, x, y, w, h, cid):
+    src = b64img(path)
     return (f'<clipPath id="{cid}"><rect x="{x}" y="{y}" width="{w}" height="{h}"/></clipPath>'
-            f'<image href="{b64img(path)}" x="{x}" y="{y}" width="{w}" height="{h}" preserveAspectRatio="xMidYMid slice" clip-path="url(#{cid})"/>')
+            f'<image href="{src}" xlink:href="{src}" x="{x}" y="{y}" width="{w}" height="{h}" preserveAspectRatio="xMidYMid slice" clip-path="url(#{cid})"/>')
 
 # ---------------------------------------------------------------- pages
 def hero():
@@ -335,6 +336,8 @@ def decor(kind):
     elif kind == "p2":
         o += [spr(heart(PURPLE, PURPLE, "#8A78AD"), 5, 50, 60), spr(heart(PURPLE, PURPLE, "#8A78AD"), 5, 100, 60),
               spr(heart(PURPLE, PURPLE, "#8A78AD"), 5, 150, 60), checker(1140, 0, 2, 7, 36, PINK)]
+    elif kind == "p3":
+        o += [spr(sparkle(), 7, 80, 50), spr(sparkle(), 6, 140, 90), checker(960, 0, 6, 2, 40, MUTED)]
     elif kind == "current":
         o += [spr(hourglass(), 7, 110, 20, 8), checker(0, 120, 3, 4, 36, PINK), spr(heart_solid(PINK), 7, 960, 60),
               spr(heart_solid(PINK), 6, 1030, 110), spinner(1110, 60, 30, 14)]
@@ -425,8 +428,9 @@ def contact_button(label, icon):
 HEADERS = [
     ("about", "INTRODUCTION", "ABOUT ME", "about"),
     ("expertise", "CORE", "EXPERTISE", "expertise"),
-    ("project-1", "FEATURED PROJECT 01", "CONTENTHUB", "p1"),
-    ("project-2", "FEATURED PROJECT 02", "SIGMAGPT", "p2"),
+    ("project-1", "FEATURED PROJECT 01", "SATVISTAAR", "p1"),
+    ("project-2", "FEATURED PROJECT 02", "RESUME BUDDY", "p2"),
+    ("project-3", "FEATURED PROJECT 03", "CONTENTHUB", "p3"),
     ("current", "CURRENTLY BUILDING /", "EXPLORING", "current"),
     ("tech", "MY TOOLBOX /", "TECH STACK", "tech"),
     ("journey", "MY DEVELOPER", "JOURNEY", "journey"),
@@ -434,13 +438,18 @@ HEADERS = [
 ]
 NAV = ["ABOUT", "EXPERTISE", "PROJECTS", "BUILDING", "TOOLBOX", "JOURNEY", "CONTACT"]
 CATS = ["LANGUAGES", "FRONTEND", "BACKEND", "DATABASES", "AI / INTEGRATIONS", "TOOLS"]
-CHIPS = ["JavaScript", "Python", "C / C++", "HTML", "CSS", "React", "Tailwind CSS", "Bootstrap", "Node.js", "Express.js",
-         "EJS", "MongoDB", "SQL", "Groq API", "OpenAI-compatible APIs", "Whisper", "YouTube API", "Git", "GitHub",
-         "Docker", "Postman", "VS Code", "Cloudinary", "MERN Stack", "React.js"]
+CHIPS = [
+    "JavaScript", "TypeScript", "Python", "C / C++", "HTML", "CSS", "React", "React.js",
+    "Tailwind CSS", "Bootstrap", "Node.js", "Express.js", "FastAPI", "Flask",
+    "EJS", "MongoDB", "PostgreSQL", "SQL", "Groq API", "Groq VLM", "Ollama",
+    "OpenAI-compatible APIs", "Whisper", "FFmpeg", "Rasterio", "JWT", "Multer",
+    "Vite", "YouTube API", "Git", "GitHub", "Docker", "Postman", "VS Code",
+    "Cloudinary", "MERN Stack", "Prisma"
+]
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--photo"); ap.add_argument("--shot1"); ap.add_argument("--shot2")
+    ap.add_argument("--photo"); ap.add_argument("--shot1"); ap.add_argument("--shot2"); ap.add_argument("--shot3")
     a = ap.parse_args()
     save("hero.svg", hero()); save("thanks.svg", thanks()); save("divider.svg", divider())
     for n, s, b, k in HEADERS: save(f"header-{n}.svg", header(n, s, b, k))
@@ -451,8 +460,10 @@ if __name__ == "__main__":
     for i in range(1, 6): save(f"num-0{i}.svg", number(f"0{i}"), "nums")
     save("window-stats.svg", window_bar("GITHUB_STATS.EXE"))
     save("about-photo.svg", about_photo(a.photo))
-    save("contenthub-preview.svg", project_window("CONTENTHUB.EXE", a.shot1, 1))
-    save("sigmagpt-preview.svg", project_window("SIGMAGPT.EXE", a.shot2, 2))
+    save("satvistaar-preview.svg", project_window("SATVISTAAR.EXE", a.shot1, 1))
+    save("resume-buddy-preview.svg", project_window("RESUME_BUDDY.EXE", a.shot2, 2))
+    save("contenthub-preview.svg", project_window("CONTENTHUB.EXE", a.shot3, 3))
+    save("sigmagpt-preview.svg", project_window("SIGMAGPT.EXE", None, 4))
     save("btn-github.svg", contact_button("GITHUB", "gh"), "contact")
     save("btn-linkedin.svg", contact_button("LINKEDIN", "in"), "contact")
     save("btn-email.svg", contact_button("EMAIL", "mail"), "contact")
