@@ -10,14 +10,13 @@
 <a href="#about"><img src="assets/nav/nav-about.svg" height="36" alt="About"></a>
 <a href="#expertise"><img src="assets/nav/nav-expertise.svg" height="36" alt="Expertise"></a>
 <a href="#projects"><img src="assets/nav/nav-projects.svg" height="36" alt="Projects"></a>
-<a href="#building"><img src="assets/nav/nav-building.svg" height="36" alt="Currently building"></a>
 <a href="#toolbox"><img src="assets/nav/nav-toolbox.svg" height="36" alt="Toolbox"></a>
 <a href="#journey"><img src="assets/nav/nav-journey.svg" height="36" alt="Journey"></a>
 <a href="#contact"><img src="assets/nav/nav-contact.svg" height="36" alt="Contact"></a>
 
 <br><br>
 
-**Backend Developer & Full-Stack Engineer specializing in scalable APIs, databases, and AI-powered systems.**
+**Backend Developer & Full-Stack Engineer specializing in scalable APIs, databases, and AI systems.**
 <br>
 Ahmedabad–Gandhinagar, Gujarat, India &nbsp;·&nbsp; B.Tech CSE (Gandhinagar University) &nbsp;·&nbsp; Node.js · Express · Python · MongoDB · AI/VLMs
 
@@ -31,20 +30,19 @@ Ahmedabad–Gandhinagar, Gujarat, India &nbsp;·&nbsp; B.Tech CSE (Gandhinagar U
 
 <table>
 <tr>
-<td width="42%" valign="middle" align="center">
-<img src="assets/about-photo.svg" width="100%" alt="Krishna Sharma - Profile">
+<td width="36%" valign="middle" align="center">
+<img src="assets/about-photo.png" width="100%" alt="Krishna Sharma - Profile">
 </td>
-<td width="58%" valign="middle">
+<td width="64%" valign="middle">
 
-Hi, I'm **Krishna Sharma**, a Software Developer with a backend-focused approach, experienced in building scalable and reliable web applications.
+Hi, I'm **Krishna Sharma** — a Software Developer with a backend-focused approach, experienced in building scalable and reliable web applications.
 
-I specialize in designing RESTful APIs, developing robust server-side systems, working with databases (MongoDB, PostgreSQL, SQL), and integrating frontend and backend components to deliver complete, end-to-end applications.
+I design RESTful APIs, develop robust server-side systems, model databases (MongoDB, PostgreSQL, SQL), and integrate full-stack components into complete end-to-end applications.
 
-Currently pursuing my **B.Tech in Computer Science and Engineering at Gandhinagar University** (CGPA: **9.65 / 10**), my core engineering focus centers on clean system architecture, secure authentication patterns, microservice data pipelines, and intelligent AI integrations — ranging from local LLM inference via Ollama to high-throughput cloud model orchestration and multimodal vision-language platforms.
-
-> 🎓 **B.Tech CSE @ Gandhinagar University** (CGPA: 9.65 / 10 &nbsp;·&nbsp; 2024 – 2028)  
-> 🛠️ **Backend Systems, RESTful APIs, Database Design & AI Orchestration**  
-> 📍 **Ahmedabad–Gandhinagar, Gujarat, India** &nbsp;·&nbsp; 🌐 [krxna-tech.vercel.app](https://krxna-tech.vercel.app)
+- 🎓 **Education:** B.Tech CSE @ Gandhinagar University (CGPA: 9.65 / 10 · 2024–2028)
+- 🛠️ **Core Focus:** Scalable REST APIs, Microservices & Database Architecture
+- 🤖 **AI Engineering:** Local LLM Inference (Ollama) & Cloud Model Orchestration
+- 📍 **Location:** Ahmedabad–Gandhinagar, Gujarat, India &nbsp;·&nbsp; [krxna-tech.vercel.app](https://krxna-tech.vercel.app)
 
 </td>
 </tr>
@@ -56,76 +54,30 @@ Currently pursuing my **B.Tech in Computer Science and Engineering at Gandhinaga
 <a id="expertise"></a>
 <h2 align="center"><img src="assets/header-expertise.svg" width="100%" alt="Core Expertise"></h2>
 
-- **Backend Architecture & RESTful APIs.** Building scalable, production-ready server-side applications using Node.js, Express.js, and Python (FastAPI / Flask). Implementing secure JWT authentication in HTTP-only cookies, Bcrypt password hashing, structured JSON pipelines, and Role-Based Access Control (RBAC).
-- **Full-Stack & Database Engineering.** Developing complete web applications with React, Vite, and Tailwind CSS. Designing relational and NoSQL schemas, indexes, and aggregation pipelines across MongoDB (Mongoose), PostgreSQL, and SQL databases.
-- **AI Integration & Model Orchestration.** Architecting practical AI workflows combining local LLM inference (Ollama), cloud model acceleration (Groq API, Llama, Qwen), Vision-Language Models (VLMs), speech transcription (OpenAI Whisper), audio extraction (FFmpeg), and geospatial analysis (Rasterio).
+- **Backend Architecture & RESTful APIs.** Building scalable, production-ready server applications with Node.js, Express.js, and Python (FastAPI / Flask). Implementing secure JWT authentication, Bcrypt hashing, structured JSON pipelines, and Role-Based Access Control (RBAC).
+- **Full-Stack & Database Engineering.** Developing complete web applications with React, Vite, and Tailwind CSS. Designing relational and NoSQL schemas, indexes, and queries across MongoDB (Mongoose), PostgreSQL, and SQL databases.
+- **AI Integration & Model Orchestration.** Architecting practical AI workflows combining local LLM inference (Ollama), cloud model acceleration (Groq API, Llama, Qwen), speech transcription (OpenAI Whisper), and audio extraction (FFmpeg).
 
 <img src="assets/divider.svg" width="100%" alt="">
 
 <!-- ======================= PAGE 04 · FEATURED PROJECTS ======================= -->
 <a id="projects"></a>
 
-<!-- PROJECT 01: SATVISTAAR -->
-<h2 align="center"><img src="assets/header-project-1.svg" width="100%" alt="Featured Project 01: SatVistaar"></h2>
+<!-- PROJECT 01: RESUME BUDDY -->
+<h2 align="center"><img src="assets/header-project-1.svg" width="100%" alt="Featured Project 01: Resume Buddy"></h2>
 
 <table>
 <tr>
-<td width="52%" valign="top">
-
-### SatVistaar: Autonomous Vision-Language Platform for Remote-Sensing Intelligence
-*Smart India Hackathon (SIH) 2026 Project*
-
-**The problem.** Satellite and Earth-observation data (GeoTIFF, multi-spectral, SAR) is dense and requires specialized GIS software and domain expertise. Analyzing geographic patterns, land-use shifts, and ground features programmatically through natural language has traditionally been inaccessible.
-
-**The solution.** SatVistaar is an agentic geospatial platform that enables natural-language queries directly over satellite imagery using multimodal vision-language reasoning.
-
-**Architecture & Key Capabilities**
-- **4 Multimodal Modes:** Visual Question Answering (VQA), pixel-level feature grounding, automated scene description, and bi-temporal change detection across multi-date satellite passes.
-- **Provider-Agnostic Model Router:** Engineered a model router with deterministic fallback between cloud Groq VLMs (Qwen/Llama) and a local Ollama VLM instance for latency optimization and offline resilience.
-- **Geospatial Microservice:** Python/Flask microservice utilizing Rasterio to ingest GeoTIFF imagery and extract Coordinate Reference System (CRS) data, bounding boxes, and band metadata.
-- **Production Security & Test Coverage:** Protected with HTTP-only cookie JWT auth and Bcrypt hashing; backed by a regression test suite achieving 21/21 auth tests and 28/30 pipeline tests passing.
-
-<img src="assets/chips/chip-react.svg" height="28" alt="React">
-<img src="assets/chips/chip-node-js.svg" height="28" alt="Node.js">
-<img src="assets/chips/chip-express-js.svg" height="28" alt="Express.js">
-<img src="assets/chips/chip-python.svg" height="28" alt="Python">
-<img src="assets/chips/chip-flask.svg" height="28" alt="Flask">
-<img src="assets/chips/chip-groq-vlm.svg" height="28" alt="Groq VLM">
-<img src="assets/chips/chip-ollama.svg" height="28" alt="Ollama">
-<img src="assets/chips/chip-rasterio.svg" height="28" alt="Rasterio">
-<img src="assets/chips/chip-jwt.svg" height="28" alt="JWT">
-
-<br>
-
-**[📁 GitHub Repo](https://github.com/KrxnTech/SatVistaar-SIH)** &nbsp;·&nbsp; **[🌐 Live Demo](https://sat-vistaar.vercel.app)**
-
-</td>
-<td width="48%" valign="middle" align="center">
-<img src="assets/satvistaar-preview.svg" width="100%" alt="SatVistaar preview in a retro computer window">
-</td>
-</tr>
-</table>
-
-<br>
-
-<!-- PROJECT 02: RESUME BUDDY -->
-<h2 align="center"><img src="assets/header-project-2.svg" width="100%" alt="Featured Project 02: Resume Buddy"></h2>
-
-<table>
-<tr>
-<td width="48%" valign="middle" align="center">
-<img src="assets/resume-buddy-preview.svg" width="100%" alt="Resume Buddy preview in a retro computer window">
-</td>
 <td width="52%" valign="top">
 
 ### Resume Buddy: AI Resume & Career Intelligence Platform
 
-**The problem.** Traditional Applicant Tracking Systems (ATS) and job search tools rely on rigid keyword matching, frequently missing qualified candidates and offering no actionable guidance to improve resume impact.
+**The problem.** Traditional Applicant Tracking Systems (ATS) rely on naive keyword matching, discarding qualified candidates without providing actionable feedback to improve resume impact.
 
-**The solution.** Resume Buddy is an AI career-intelligence platform that parses resume PDFs and evaluates them against target job descriptions using contextual LLM analysis rather than naive keyword matching.
+**The solution.** An AI career-intelligence platform that parses resume PDFs and evaluates them against target job descriptions using contextual LLM analysis rather than keyword counting.
 
 **Architecture & Key Capabilities**
-- **Structured Parsing Pipeline:** Uses Multer and `pdf-parse` to convert unstructured PDF resumes into structured JSON schemas for deep inspection.
+- **Structured Parsing Pipeline:** Uses Multer and `pdf-parse` to convert unstructured PDF resumes into validated JSON schemas for deep inspection.
 - **Dual Scoring Engine:** Links parsed data to a dual ATS-compatibility and recruiter-evaluation scoring engine:
   - *ATS Score:* Evaluates machine readability, formatting compliance, and section structure.
   - *Recruiter Score:* Evaluates quantifiable impact, project depth, and role alignment.
@@ -145,28 +97,34 @@ Currently pursuing my **B.Tech in Computer Science and Engineering at Gandhinaga
 **[📁 GitHub Repo](https://github.com/KrxnTech/Resume-Buddy)** &nbsp;·&nbsp; **[🌐 Live Demo](https://resume-buddy-green.vercel.app)**
 
 </td>
+<td width="48%" valign="middle" align="center">
+<img src="assets/resume-buddy-preview.svg" width="100%" alt="Resume Buddy preview in a retro computer window">
+</td>
 </tr>
 </table>
 
 <br>
 
-<!-- PROJECT 03: CONTENTHUB -->
-<h2 align="center"><img src="assets/header-project-3.svg" width="100%" alt="Featured Project 03: ContentHub"></h2>
+<!-- PROJECT 02: CONTENTHUB -->
+<h2 align="center"><img src="assets/header-project-2.svg" width="100%" alt="Featured Project 02: ContentHub"></h2>
 
 <table>
 <tr>
+<td width="48%" valign="middle" align="center">
+<img src="assets/contenthub-preview.svg" width="100%" alt="ContentHub preview in a retro computer window">
+</td>
 <td width="52%" valign="top">
 
 ### ContentHub: AI Video-to-Shorts Platform
 
-**The problem.** Manually extracting engaging moments from 4–5 minute long-form videos, resizing them for vertical formats, and creating subtitles for social media repurposing is tedious and time-consuming.
+**The problem.** Manually scrubbing 4–5 minute videos to find engaging moments, resizing them for vertical formats, and generating synced subtitles is slow and repetitive.
 
-**The solution.** ContentHub is a microservices platform that automatically ingests long-form videos and converts them into multiple high-engagement short-form vertical clips for social media.
+**The solution.** A microservices platform that automatically ingests long-form videos and converts them into multiple high-engagement vertical short clips for social media repurposing.
 
 **Architecture & Key Capabilities**
 - **Audio Extraction & Timed Transcription:** Python/FastAPI microservice extracts audio tracks via FFmpeg and runs transcription with OpenAI Whisper to generate timestamped text tokens.
 - **Engagement Hook Analysis:** Groq-accelerated Llama 3 models analyze transcript pacing and sentiment to detect high-retention moments and highlight clips.
-- **Automated Clipping & Metadata:** Programmatically crops and slices vertical clips, generates synchronized subtitles, and auto-generates titles, descriptions, and hashtags.
+- **Automated Clipping & Captions:** Programmatically crops 9:16 vertical clips, generates synchronized subtitles, and creates SEO-optimized descriptions and hashtags.
 - **Cloudinary Storage Sync:** Automatically syncs processed video assets and clips to Cloudinary for media management and fast CDN delivery.
 
 <img src="assets/chips/chip-react.svg" height="28" alt="React">
@@ -186,64 +144,48 @@ Currently pursuing my **B.Tech in Computer Science and Engineering at Gandhinaga
 **[📁 GitHub Repo](https://github.com/KrxnTech/ContentHub)**
 
 </td>
-<td width="48%" valign="middle" align="center">
-<img src="assets/contenthub-preview.svg" width="100%" alt="ContentHub preview in a retro computer window">
-</td>
 </tr>
 </table>
 
 <br>
 
-### 🚀 Additional Projects
-
-| Project | Description | Stack | Links |
-|:---|:---|:---|:---:|
-| **EduEase** | AI-based educational platform helping teachers streamline lesson planning and content creation using locally-hosted LLM inference and tailored prompt engineering. | React, Vite, Express, Node.js, MongoDB, Ollama API | [📁 GitHub](https://github.com/KrxnTech/EduEase) |
-| **Dhoon** | Responsive web music player built with React and Tailwind CSS, focused on smooth audio playback, custom controls, and polished modern UI/UX. | React, Vite, Tailwind CSS, JavaScript | [📁 GitHub](https://github.com/KrxnTech/Dhoooon) &nbsp;·&nbsp; [🌐 Demo](https://dhoooon.vercel.app/) |
-| **Production-Backend** | Scalable YouTube-like backend architecture featuring JWT authentication, Role-Based Access Control, MongoDB indexing, and Cloudinary media handling. | Node.js, Express.js, MongoDB, JWT, Cloudinary | [📁 GitHub](https://github.com/KrxnTech/Production-Backend) |
-
-<img src="assets/divider.svg" width="100%" alt="">
-
-<!-- ======================= PAGE 05 · CURRENTLY BUILDING ======================= -->
-<a id="building"></a>
-<h2 align="center"><img src="assets/header-current.svg" width="100%" alt="Currently Building / Exploring"></h2>
+<!-- PROJECT 03: DHOON -->
+<h2 align="center"><img src="assets/header-project-3.svg" width="100%" alt="Featured Project 03: Dhoon"></h2>
 
 <table>
 <tr>
-<td width="33%" valign="top" align="center">
-<img src="assets/nums/num-01.svg" height="80" alt="01"><br>
-<b>SatVistaar SIH 2026</b><br>
-Scaling geospatial VLM routing and multi-spectral change detection.
+<td width="52%" valign="top">
+
+### Dhoon: Modern React Music Streaming Web Application
+
+**The problem.** Many web music players suffer from sluggish playback state transitions, clunky playlist management, and inconsistent audio controls across devices.
+
+**The solution.** A responsive, modern music player web app built with React and Tailwind CSS, focused on seamless audio playback interactions, instant feedback, and a polished modern UI/UX.
+
+**Architecture & Key Capabilities**
+- **Seamless Playback Engine:** Custom audio controller with persistent playback state, smooth progress scrubbing, volume regulation, and track skipping.
+- **Dynamic Playlist Management:** Interactive track queue with real-time search, album art presentation, and active song highlighting.
+- **Modern Responsive Design:** Crafted with Tailwind CSS featuring fluid animations, responsive layouts for desktop and mobile, and fast client-side rendering.
+
+<img src="assets/chips/chip-react.svg" height="28" alt="React">
+<img src="assets/chips/chip-vite.svg" height="28" alt="Vite">
+<img src="assets/chips/chip-tailwind-css.svg" height="28" alt="Tailwind CSS">
+<img src="assets/chips/chip-javascript.svg" height="28" alt="JavaScript">
+
+<br>
+
+**[📁 GitHub Repo](https://github.com/KrxnTech/Dhoooon)** &nbsp;·&nbsp; **[🌐 Live Demo](https://dhoooon.vercel.app/)**
+
 </td>
-<td width="33%" valign="top" align="center">
-<img src="assets/nums/num-02.svg" height="80" alt="02"><br>
-<b>Docker & Microservices</b><br>
-Containerizing full-stack microservices for reproducible production builds.
+<td width="48%" valign="middle" align="center">
+<img src="assets/dhoon-preview.svg" width="100%" alt="Dhoon preview in a retro computer window">
 </td>
-<td width="33%" valign="top" align="center">
-<img src="assets/nums/num-03.svg" height="80" alt="03"><br>
-<b>Local LLM / VLM Inference</b><br>
-Benchmarking low-latency edge inference with Ollama and vision models.
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top" align="center">
-<img src="assets/nums/num-04.svg" height="80" alt="04"><br>
-<b>Data Structures & Algorithms</b><br>
-Practicing advanced problem solving, graph theory, and dynamic programming.
-</td>
-<td width="33%" valign="top" align="center">
-<img src="assets/nums/num-05.svg" height="80" alt="05"><br>
-<b>Scalable Distributed Backends</b><br>
-Exploring message brokers, caching strategies, and robust API rate limiting.
-</td>
-<td width="33%"></td>
 </tr>
 </table>
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<!-- ======================= PAGE 06 · TECH STACK ======================= -->
+<!-- ======================= PAGE 05 · TECH STACK ======================= -->
 <a id="toolbox"></a>
 <h2 align="center"><img src="assets/header-tech.svg" width="100%" alt="My Toolbox / Tech Stack"></h2>
 
@@ -310,7 +252,7 @@ Exploring message brokers, caching strategies, and robust API rate limiting.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<!-- ======================= PAGE 07 · GITHUB JOURNEY ======================= -->
+<!-- ======================= PAGE 06 · GITHUB JOURNEY ======================= -->
 <a id="journey"></a>
 <h2 align="center"><img src="assets/header-journey.svg" width="100%" alt="My Developer Journey"></h2>
 
@@ -339,7 +281,7 @@ Exploring message brokers, caching strategies, and robust API rate limiting.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<!-- ======================= PAGE 08 · CONTACT ======================= -->
+<!-- ======================= PAGE 07 · CONTACT ======================= -->
 <a id="contact"></a>
 <h2 align="center"><img src="assets/header-contact.svg" width="100%" alt="Let's Connect: My Contact"></h2>
 
@@ -362,7 +304,7 @@ Exploring message brokers, caching strategies, and robust API rate limiting.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<!-- ======================= PAGE 09 · THANK YOU ======================= -->
+<!-- ======================= PAGE 08 · THANK YOU ======================= -->
 <div align="center">
 
 <img src="assets/thanks.svg" width="100%" alt="Thank you! Let's build something amazing together.">

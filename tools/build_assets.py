@@ -428,15 +428,14 @@ def contact_button(label, icon):
 HEADERS = [
     ("about", "INTRODUCTION", "ABOUT ME", "about"),
     ("expertise", "CORE", "EXPERTISE", "expertise"),
-    ("project-1", "FEATURED PROJECT 01", "SATVISTAAR", "p1"),
-    ("project-2", "FEATURED PROJECT 02", "RESUME BUDDY", "p2"),
-    ("project-3", "FEATURED PROJECT 03", "CONTENTHUB", "p3"),
-    ("current", "CURRENTLY BUILDING /", "EXPLORING", "current"),
+    ("project-1", "FEATURED PROJECT 01", "RESUME BUDDY", "p1"),
+    ("project-2", "FEATURED PROJECT 02", "CONTENTHUB", "p2"),
+    ("project-3", "FEATURED PROJECT 03", "DHOON", "p3"),
     ("tech", "MY TOOLBOX /", "TECH STACK", "tech"),
     ("journey", "MY DEVELOPER", "JOURNEY", "journey"),
     ("contact", "LET'S CONNECT /", "MY CONTACT", "contact"),
 ]
-NAV = ["ABOUT", "EXPERTISE", "PROJECTS", "BUILDING", "TOOLBOX", "JOURNEY", "CONTACT"]
+NAV = ["ABOUT", "EXPERTISE", "PROJECTS", "TOOLBOX", "JOURNEY", "CONTACT"]
 CATS = ["LANGUAGES", "FRONTEND", "BACKEND", "DATABASES", "AI / INTEGRATIONS", "TOOLS"]
 CHIPS = [
     "JavaScript", "TypeScript", "Python", "C / C++", "HTML", "CSS", "React", "React.js",
@@ -447,10 +446,66 @@ CHIPS = [
     "Cloudinary", "MERN Stack", "Prisma"
 ]
 
+def build_about_png(photo_path):
+    try:
+        from PIL import Image, ImageDraw, ImageOps
+        S = 2
+        W, H = 560 * S, 450 * S
+        img = Image.new('RGBA', (W, H), BG)
+        draw = ImageDraw.Draw(img)
+        x, y, w, h = 30 * S, 30 * S, 500 * S, 390 * S
+        bar = 28 * S
+        sh = 14 * S
+
+        draw.rectangle([x + sh, y + sh, x + sh + w, y + sh + h], fill=PURPLE)
+        draw.rectangle([x, y, x + w, y + h], fill=BLACK)
+        draw.rectangle([x + 3 * S, y + 3 * S, x + w - 3 * S, y + h - 3 * S], fill=WHITE)
+        draw.rectangle([x + 3 * S, y + 3 * S, x + w - 3 * S, y + 3 * S + bar], fill=BAR)
+        draw.rectangle([x + 3 * S, y + 3 * S + bar, x + w - 3 * S, y + 3 * S + bar + 3 * S], fill='#8E8E8E')
+
+        b_size = bar - 12 * S
+        for i in range(3):
+            bx = x + w - 12 * S - (i + 1) * (b_size + 5 * S) + 5 * S
+            by = y + 9 * S
+            draw.rectangle([bx, by, bx + b_size, by + b_size], fill=BLACK)
+            draw.rectangle([bx + 2 * S, by + 2 * S, bx + b_size - 2 * S, by + b_size - 2 * S], fill=LGRAY)
+
+        g, _ = text_grid('ABOUT_ME.EXE')
+        t_px = 2 * S
+        tx = x + 60 * S
+        ty = y + 3 * S + int((bar - 14 * S) / 2)
+        for (cx, cy) in g.c:
+            draw.rectangle([tx + cx * t_px, ty + cy * t_px, tx + (cx + 1) * t_px, ty + (cy + 1) * t_px], fill=BLACK)
+
+        ax = (30 + 3 + 16) * S
+        ay = (30 + 3 + 28 + 3 + 10) * S
+        aw = (500 - 6 - 32) * S
+        ah = (390 - 6 - 28 - 3 - 26) * S
+
+        if photo_path and os.path.exists(photo_path):
+            photo = Image.open(photo_path).convert('RGB')
+            photo_fit = ImageOps.fit(photo, (aw, ah), centering=(0.5, 0.4))
+            img.paste(photo_fit, (ax, ay))
+
+        pin_g = pin()
+        pin_px = 6 * S
+        pin_ox, pin_oy = 4 * S, 2 * S
+        for (cx, cy), col in pin_g.c.items():
+            draw.rectangle([pin_ox + cx * pin_px, pin_oy + cy * pin_px, pin_ox + (cx + 1) * pin_px, pin_oy + (cy + 1) * pin_px], fill=col)
+
+        out_png = os.path.join(OUT, "about-photo.png")
+        img.save(out_png, optimize=True)
+    except Exception as e:
+        print("Could not build PNG:", e)
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--photo"); ap.add_argument("--shot1"); ap.add_argument("--shot2"); ap.add_argument("--shot3")
     a = ap.parse_args()
+
+    default_photo = os.path.join(OUT, "krishna-photo.jpg")
+    photo_file = a.photo if a.photo else (default_photo if os.path.exists(default_photo) else None)
+
     save("hero.svg", hero()); save("thanks.svg", thanks()); save("divider.svg", divider())
     for n, s, b, k in HEADERS: save(f"header-{n}.svg", header(n, s, b, k))
     for n in NAV: save(f"nav-{slug(n)}.svg", nav_pill(n), "nav")
@@ -459,11 +514,11 @@ if __name__ == "__main__":
     for c in CHIPS: save(f"chip-{slug(c)}.svg", chip(c), "chips")
     for i in range(1, 6): save(f"num-0{i}.svg", number(f"0{i}"), "nums")
     save("window-stats.svg", window_bar("GITHUB_STATS.EXE"))
-    save("about-photo.svg", about_photo(a.photo))
-    save("satvistaar-preview.svg", project_window("SATVISTAAR.EXE", a.shot1, 1))
-    save("resume-buddy-preview.svg", project_window("RESUME_BUDDY.EXE", a.shot2, 2))
-    save("contenthub-preview.svg", project_window("CONTENTHUB.EXE", a.shot3, 3))
-    save("sigmagpt-preview.svg", project_window("SIGMAGPT.EXE", None, 4))
+    save("about-photo.svg", about_photo(photo_file))
+    build_about_png(photo_file)
+    save("resume-buddy-preview.svg", project_window("RESUME_BUDDY.EXE", a.shot1, 1))
+    save("contenthub-preview.svg", project_window("CONTENTHUB.EXE", a.shot2, 2))
+    save("dhoon-preview.svg", project_window("DHOON.EXE", a.shot3, 3))
     save("btn-github.svg", contact_button("GITHUB", "gh"), "contact")
     save("btn-linkedin.svg", contact_button("LINKEDIN", "in"), "contact")
     save("btn-email.svg", contact_button("EMAIL", "mail"), "contact")
