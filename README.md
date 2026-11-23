@@ -1,7 +1,7 @@
 <a id="top"></a>
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Krishna - Software Developer. Backend Developer, MERN Stack, AI Enthusiast">
+<img src="assets/hero.svg" width="100%" alt="Krishna - Software Developer. Backend Developer, MERN Stack, Gen AI">
 
 <a href="#about"><img src="assets/start.svg" height="64" alt="Start"></a>
 
@@ -105,11 +105,9 @@ I design RESTful APIs, develop robust server-side systems, model databases (Mong
 <img src="assets/cats/cat-ai-integrations.svg" height="44" alt="AI / Integrations"><br>
 <img src="assets/chips/chip-ollama.svg" height="28" alt="Ollama">
 <img src="assets/chips/chip-groq-api.svg" height="28" alt="Groq API">
-<img src="assets/chips/chip-groq-vlm.svg" height="28" alt="Groq VLM">
+<img src="assets/chips/chip-groq-vlm.svg" height="28" alt="Groq LLM Model">
 <img src="assets/chips/chip-openai-compatible-apis.svg" height="28" alt="OpenAI-compatible APIs">
-<img src="assets/chips/chip-whisper.svg" height="28" alt="Whisper">
-<img src="assets/chips/chip-rasterio.svg" height="28" alt="Rasterio">
-<img src="assets/chips/chip-ffmpeg.svg" height="28" alt="FFmpeg">
+<img src="assets/chips/chip-genai.svg" height="28" alt="Gen AI">
 </td>
 <td width="50%" valign="top">
 <img src="assets/cats/cat-tools.svg" height="44" alt="Tools"><br>
