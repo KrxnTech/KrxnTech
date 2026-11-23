@@ -9,9 +9,7 @@
 
 <a href="#about"><img src="assets/nav/nav-about.svg" height="36" alt="About"></a>
 <a href="#expertise"><img src="assets/nav/nav-expertise.svg" height="36" alt="Expertise"></a>
-<a href="#projects"><img src="assets/nav/nav-projects.svg" height="36" alt="Projects"></a>
 <a href="#toolbox"><img src="assets/nav/nav-toolbox.svg" height="36" alt="Toolbox"></a>
-<a href="#journey"><img src="assets/nav/nav-journey.svg" height="36" alt="Journey"></a>
 <a href="#contact"><img src="assets/nav/nav-contact.svg" height="36" alt="Contact"></a>
 
 <br><br>
