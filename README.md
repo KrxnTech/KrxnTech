@@ -16,7 +16,7 @@
 
 **Backend Developer & Full-Stack Engineer specializing in scalable APIs, databases, and AI systems.**
 <br>
-Ahmedabad–Gandhinagar, Gujarat, India &nbsp;·&nbsp; B.Tech CSE (Gandhinagar University) &nbsp;·&nbsp; Node.js · Express · Python · MongoDB · AI/VLMs
+Ahmedabad–Gandhinagar, Gujarat, India &nbsp;·&nbsp; B.Tech CSE (Gandhinagar University) &nbsp;·&nbsp; Node.js · Express · Python · MongoDB · AI/LLM
 
 </div>
 
@@ -37,10 +37,10 @@ Hi, I'm **Krishna Sharma** — a Software Developer with a backend-focused appro
 
 I design RESTful APIs, develop robust server-side systems, model databases (MongoDB, PostgreSQL, SQL), and integrate full-stack components into complete end-to-end applications.
 
-- 🎓 **Education:** B.Tech CSE @ Gandhinagar University (CGPA: 9.65 / 10 · 2024–2028)
+- 🎓 **Education:** B.Tech CSE @ Gandhinagar University (CGPA: 9.65 · 2024–2028)
 - 🛠️ **Core Focus:** Scalable REST APIs, Microservices & Database Architecture
 - 🤖 **AI Engineering:** Local LLM Inference (Ollama) & Cloud Model Orchestration
-- 📍 **Location:** Ahmedabad–Gandhinagar, Gujarat, India &nbsp;·&nbsp; [krxna-tech.vercel.app](https://krxna-tech.vercel.app)
+- 📍 **Location:** Ahmedabad–Gandhinagar, Gujarat, India 
 
 </td>
 </tr>
