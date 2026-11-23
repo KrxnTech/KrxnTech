@@ -127,33 +127,6 @@ I design RESTful APIs, develop robust server-side systems, model databases (Mong
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-<!-- ======================= PAGE 06 · GITHUB JOURNEY ======================= -->
-<a id="journey"></a>
-<h2 align="center"><img src="assets/header-journey.svg" width="100%" alt="My Developer Journey"></h2>
-
-<div align="center">
-
-<img src="assets/window-stats.svg" width="100%" alt="GitHub stats window">
-
-<a href="https://github.com/KrxnTech">
-<img height="170" alt="Krishna's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=KrxnTech&show_icons=true&title_color=42305F&text_color=111111&icon_color=C2679A&bg_color=FFF3F5&border_color=42305F&border_radius=0">
-<img height="170" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrxnTech&layout=compact&langs_count=6&title_color=42305F&text_color=111111&bg_color=FFF3F5&border_color=42305F&border_radius=0">
-</a>
-
-<br>
-
-<img alt="GitHub streak" src="https://streak-stats.demolab.com?user=KrxnTech&background=FFF3F5&border=42305F&ring=C2679A&fire=F06CB5&currStreakLabel=42305F&currStreakNum=111111&sideNums=111111&sideLabels=42305F&dates=42305F&stroke=42305F&border_radius=0">
-
-<br>
-
-<img alt="Contribution graph" width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=KrxnTech&bg_color=FFF3F5&color=42305F&line=F2B8CB&point=42305F&area=true&area_color=F2B8CB&hide_border=true&title_color=42305F">
-
-<br>
-
-<sub>⚡ Activity data updated automatically via GitHub APIs. <a href="https://github.com/KrxnTech">Visit my full GitHub profile</a>.</sub>
-
-</div>
-
 <img src="assets/divider.svg" width="100%" alt="">
 
 <!-- ======================= PAGE 07 · CONTACT ======================= -->
